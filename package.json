@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sirvvy/zuri-website"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.1.7"
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
